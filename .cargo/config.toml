@@ -1,0 +1,6 @@
+[build]
+target = "oxyde.json"
+#rustflags = ["-C link-arg=-T$(LINKER_FILE)", "-C target-cpu=cortex-a53"]
+
+[unstable]
+build-std = ["core", "compiler_builtins"]
